@@ -1,0 +1,8 @@
+{C:/Users/ab4675/Downloads/abc/lab1/First digital systems with HDL and FPGA/tutorial1_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/ab4675/Downloads/abc/lab1/First digital systems with HDL and FPGA/tutorial1_tb.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module tutorial1_tb
+
+Top level modules:
+	tutorial1_tb
+
+} {} {}}

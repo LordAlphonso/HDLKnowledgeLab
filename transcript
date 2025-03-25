@@ -1,0 +1,79 @@
+# Compile of tutorial1.sv was successful.
+# Compile of tutorial1_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tutorial1_tb
+# vsim -voptargs="+acc" work.tutorial1_tb 
+# Start time: 12:56:21 on Mar 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tutorial1_tb(fast)
+# Loading work.tutorial1(fast)
+# Load canceled
+# ** Error (suppressible): (vish-19) Failed to access library 'C:/intelFPGA/23.1std/questa_fse/win64/../osvvm' at "C:/intelFPGA/23.1std/questa_fse/win64/../osvvm".
+# No such file or directory. (errno = ENOENT)
+add wave -position end sim:/tutorial1_tb/*
+vsim -voptargs=+acc work.tutorial1_tb
+# End time: 12:59:17 on Mar 25,2025, Elapsed time: 0:02:56
+# Errors: 1, Warnings: 7
+# vsim -voptargs="+acc" work.tutorial1_tb 
+# Start time: 12:59:18 on Mar 25,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tutorial1_tb(fast)
+# Loading work.tutorial1(fast)
+add wave -position end sim:/tutorial1_tb/*
+vsim -voptargs=+acc work.tutorial1_tb
+# End time: 13:00:49 on Mar 25,2025, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tutorial1_tb 
+# Start time: 13:00:49 on Mar 25,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tutorial1_tb(fast)
+# Loading work.tutorial1(fast)
+add wave -position end sim:/tutorial1_tb/*
+vsim -voptargs=+acc work.tutorial1_tb
+# End time: 13:02:03 on Mar 25,2025, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tutorial1_tb 
+# Start time: 13:02:03 on Mar 25,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tutorial1_tb(fast)
+# Loading work.tutorial1(fast)
+add wave -position end sim:/tutorial1_tb/*
+vsim -voptargs=+acc work.tutorial1_tb
+# End time: 13:03:07 on Mar 25,2025, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tutorial1_tb 
+# Start time: 13:03:07 on Mar 25,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tutorial1_tb(fast)
+# Loading work.tutorial1(fast)
+add wave -position end sim:/tutorial1_tb/*
+vsim work.tutorial1
+# End time: 13:06:33 on Mar 25,2025, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 1
+# vsim work.tutorial1 
+# Start time: 13:06:33 on Mar 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tutorial1(fast)
+vsim -voptargs=+acc work.tutorial1_tb
+# End time: 13:07:00 on Mar 25,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tutorial1_tb 
+# Start time: 13:07:00 on Mar 25,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tutorial1_tb(fast)
+# Loading work.tutorial1(fast)
+add wave -position end sim:/tutorial1_tb/*
+add wave -position end sim:/tutorial1_tb/*
+add wave -position end sim:/tutorial1_tb/*
+run -all
+# End time: 13:24:35 on Mar 25,2025, Elapsed time: 0:17:35
+# Errors: 0, Warnings: 1

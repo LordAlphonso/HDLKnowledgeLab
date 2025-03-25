@@ -1,0 +1,8 @@
+|tutorial
+A => n1.IN0
+B => n1.IN1
+C => WideOr0.IN1
+D => WideOr0.IN2
+Z <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

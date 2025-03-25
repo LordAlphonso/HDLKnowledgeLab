@@ -1,0 +1,9 @@
+module tutorial
+( 
+input A,B,C,D, 
+output Z 
+); 
+wire n1; 
+and(n1, A, B); 
+or(Z ,n1, C, D); 
+endmodule
